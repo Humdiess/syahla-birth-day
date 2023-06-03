@@ -1,0 +1,40 @@
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  text-align: center;
+}
+
+#gameContainer {
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#analogController {
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+#joystick {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#startButton {
+  display: block;
+  margin: 20px auto;
+}
