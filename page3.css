@@ -1,0 +1,44 @@
+body {
+  background-color: #E34444;
+}
+
+.title {
+  margin: 90px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 35px;
+
+}
+
+.content {
+  margin: 90px;
+  text-align: justify;
+}
+
+.content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  height: 106px;
+  width: 542px;
+  background-color: #DBB11D;
+  color: white;
+  border-radius: 25px;
+  margin-left: 384px;
+  margin-bottom: 90px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+@media (min-width: 720px) and (min-height: 1612px) {
+  button {
+    margin-left: 218px;
+  }
+}
+

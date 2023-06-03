@@ -1,0 +1,37 @@
+/* Styling untuk page 1 */
+.page-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Styling untuk page 2 */
+.page-2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.photo-scroll {
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.photo-scroll img {
+  width: 40vw; /* Lebar gambar akan mengisi 40% lebar viewport */
+  height: auto; /* Tinggi gambar akan disesuaikan secara proporsional */
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+.birthday {
+  margin-bottom: 20px;
+}
+
+/* Styling untuk page 3 */
+.page-3 {
+  text-align: center;
+  padding: 20px;
+}
