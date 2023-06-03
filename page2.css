@@ -71,9 +71,63 @@ body {
   font-weight: bold;
 }
 
-/* Media query for screens with width 720px and height 1612px */
+
 @media (min-width: 720px) and (min-height: 1612px) {
   .container {
-    margin-bottom: 980px;
+    margin-bottom: 470px;
+  }
+
+  .heading {
+    font-family: 'Poppins';
+    font-size: 210px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -421px;
+    font-weight: 1500;
+}
+
+  .video-container {
+    width: 100%;
+    max-width: 833px;
+    height: auto;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 418px;
+  }
+
+  .heading2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+
+  .sub-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 180px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -92px;
+  }
+
+  .birthday-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -179px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1080px) and (min-height: 1920px) {
+  .container {
+    margin-bottom: 170px;
   }
 }
